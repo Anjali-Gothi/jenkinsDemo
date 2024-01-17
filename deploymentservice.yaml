@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: devops-integration:v1
+          image: anjaligothi23/devops-integration:v1
           # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
